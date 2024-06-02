@@ -1,0 +1,120 @@
+
+.navigation-bar {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    padding: 1rem;
+  }
+  
+  .navigation-bar .notification-btn {
+    border-radius: 50%; /* This will make the square a circle */
+    border: 2px solid #000; /* Example border */
+    background-color: #FFF; /* Background color */
+    color: #000; /* Text color, assuming your paragraph is black */
+    font-family: inherit; /* This will use the same font as your <p> tag */
+    text-align: center; /* Centers the number horizontally */
+    padding: 0; /* Removes default padding */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's a button */
+    margin-left: 10px;
+  }
+  
+  .navigation-bar .settings-btn {
+    border-radius: 50%; /* This will make the square a circle */
+    border: 2px solid #000; /* Example border */
+    background-color: #FFF; /* Background color */
+    color: #000; /* Text color, assuming your paragraph is black */
+    font-family: inherit; /* This will use the same font as your <p> tag */
+    text-align: center; /* Centers the number horizontally */
+    padding: 0; /* Removes default padding */
+    cursor: pointer; /* Changes cursor to pointer to indicate it's a button */
+    margin-left: 10px;
+  }
+  
+  .navigation-bar button i {
+    color: black;
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+.notification-btn, .settings-btn {
+    flex: 0 0 auto; /* Do not grow, do not shrink, basis is auto */
+    width: 50px; /* or whatever width you desire */
+    height: 50px; /* or whatever height you desire */
+    background-color: #ffffff; /* just for debugging */
+    border-radius: 100%;
+  }
+  
+  @media print {
+    body * {
+      visibility: hidden; /* Hide all content by default */
+    }
+    .table-container, .table-container * {
+      visibility: visible; /* Only the table and its contents should be visible */
+    }
+    .table-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      overflow: visible;
+    }
+    @page {
+      size: portrait;
+    }
+  }
+  
+  .popup {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    background-color: transparent;
+    width: 400px;
+    box-shadow: 0 10px 6px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    z-index: 10;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  
+  .popup-content {
+    color: #333;
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 6px;
+    display: flex; /* Ensures flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+  }
+  
+  .notifications-header {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+  
+  .notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 1.1rem;
+  }
+  
+  .close {
+    font-size: 1.5rem;
+  }
+  
+  /* Styling to center the close button at the bottom of the popup */
+  #closePopupButton {
+    width: 100px; /* Fixed width for the button */
+    margin: 20px auto; /* Automatically margin for horizontal centering */
+    border-radius: 6px;
+    cursor: pointer; /* Pointer cursor on hover */
+    justify-content: center; /* Center text inside the button */
+  }

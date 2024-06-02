@@ -1,0 +1,45 @@
+['bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'fall', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'fall', 'bump', 'fall', 'bump', 'bump', 'bump', 'fall', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'fall', 'bump', 'fall', 'bump', 'fall', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'fall', 'fall', 'fall', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'fall', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump', 'bump']
+Percentage breakdown of each label: knn 
+
+bump: 92.86%
+normal: 3.09%
+fall: 4.05%
+Percentage breakdown of each label: dt 
+
+bump: 86.87%
+fall: 12.93%
+normal: 0.19%
+Percentage breakdown of each label: ann 
+
+normal: 3.67%
+bump: 92.66%
+fall: 3.67%
+Percentage breakdown of each label: lr 
+
+bump: 88.42%
+normal: 11.58%
+Percentage breakdown of each label: svm 
+
+normal: 100.00%
+Percentage breakdown of each label: nb 
+
+bump: 100.00%
+Percentage breakdown of each label: rf 
+
+bump: 98.65%
+fall: 1.35%
+Percentage breakdown of each label: gb 
+
+bump: 94.40%
+normal: 5.21%
+fall: 0.39%
+Percentage breakdown of each label: breakdown 
+
+bump: 97.88%
+fall: 2.12%
+Percentage breakdown of each label: breakdown
+
+bump: 97.88%
+fall: 2.12%
+{'bump': 97.87644787644788, 'fall': 2.1235521235521233}
+{'bump': {'percentage': 32.2992277992278, 'rating': 'high'}, 'fall': {'percentage': 2.1235521235521233, 'rating': 'low'}, 'normal': {'percentage': 65.57722007722009, 'rating': 'medium'}, 'wobbly': {'percentage': 0, 'rating': 'low'}, 'overall': 67.57722007722009}

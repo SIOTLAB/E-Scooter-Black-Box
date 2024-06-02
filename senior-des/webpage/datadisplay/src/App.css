@@ -1,0 +1,656 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: #ffffff;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 50px;
+}
+
+
+.App-header {
+  background-color: var(--primary-color);
+  color: #000000;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 50px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.App {
+  max-height: 100vh;
+  overflow-y: auto;  
+  margin-left: 50px;
+}
+
+.navigation-bar {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: right;
+  padding: 1rem;
+}
+
+.navigation-bar .notification-btn {
+  border-radius: 50%; /* This will make the square a circle */
+  border: 2px solid #000; /* Example border */
+  background-color: #FFF; /* Background color */
+  color: #000; /* Text color, assuming your paragraph is black */
+  font-family: inherit; /* This will use the same font as your <p> tag */
+  text-align: center; /* Centers the number horizontally */
+  padding: 0; /* Removes default padding */
+  cursor: pointer; /* Changes cursor to pointer to indicate it's a button */
+  margin-left: 10px;
+}
+
+.navigation-bar .settings-btn {
+  border-radius: 50%; /* This will make the square a circle */
+  border: 2px solid #000; /* Example border */
+  background-color: #FFF; /* Background color */
+  color: #000; /* Text color, assuming your paragraph is black */
+  font-family: inherit; /* This will use the same font as your <p> tag */
+  text-align: center; /* Centers the number horizontally */
+  padding: 0; /* Removes default padding */
+  cursor: pointer; /* Changes cursor to pointer to indicate it's a button */
+  margin-left: 10px;
+}
+
+.navigation-bar button i {
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.logout i{
+  width: 50px;
+  height: 50px;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #333;
+  color: #fff; /* Text color */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Container for logo and form, centers everything below 'User Login' */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.escooter-logo {
+  display: flex;
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image if needed */
+  width: 80%;
+  margin-bottom: 20px; /* Space between logo and form */
+}
+
+.escooter-logo img {
+  max-width: 20%; /* Limiting image width to 25% of its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; 
+  display: block; /* Image as a block element for margin auto to work */
+  margin-left: auto; /* Margin auto for centering */
+  margin-right: auto; /* Margin auto for centering */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align form items to the center */
+  width: 100%;
+  max-width: 300px; /* Maximum width of the form */
+}
+
+.email-input,
+.password-input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+label {
+  margin-bottom: 10px; /* Space between label and input field */
+  font-size: 2.5rem;
+}
+
+input[type=email],
+input[type=password] {
+  width: calc(100% - 20px); /* Adjust width considering padding */
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto; /* Center the inputs */
+}
+
+.login-footer {
+  font-size: 0.5em;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #4e3ef5; /* Adjust the color as needed */
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px; /* Space above the button */
+  align-self: center; /* Align button to the center */
+}
+
+.login-button:hover {
+  background-color: #4c0cac; /* Slightly darker shade on hover */
+}
+
+
+.error-message {
+  color: #f00;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+/* end of log in page css */
+
+.logo img {
+  width: 60px; 
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* If you want a rounded image */
+  display: inline-block; /* Image as an inline-block element for layout on the same line */
+  vertical-align: middle; /* Align image vertically in the middle */
+  margin-right: 10px; /* Add space between the image and the text */
+  margin-left: 10px;
+}
+
+.logo {
+  font-size: 0.5em; /* Adjusted to a suitable size for readability */
+  display: flex; /* Use flexbox to align items on the same line */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px;
+}
+
+.logo span {
+  margin-top: -25px;
+}
+
+.top {
+  font-size: 1.25em;
+  color:black
+}
+
+.logo span {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  left: 250px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s; /* Smooth transition */
+  padding-top: 20px;
+  color: white;
+  border-radius: 0px 15px 15px 0px;
+  padding: 0.4rem 0.8rem;
+  transition: all 0.5s ease;
+}
+
+
+.top #btn {
+  color: white;
+  top: .4 rem;
+  left: 50%;
+  font-size: 2rem;
+  line-height: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sidebar span, i{
+  color: white;
+  align-items: center;
+  height: 35px; 
+  width: 100%;
+  pointer-events: 0;
+  opacity: 1;
+}
+
+
+.sidebar button span {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.sidebar button{
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  margin-top: 30px;
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.sidebar button:hover {
+  background-color: #5653CC;
+  cursor: pointer;
+}
+
+
+
+.sidebar button i {
+  width: 50px; 
+  text-align: center;
+  height: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+  font-size: 2rem;
+}
+
+.main-container {
+  margin-left: 240px;
+  font-size: 1.5rem;
+}
+
+
+.main-container h1 {
+  margin-top: -50px;
+  font-size: 4rem;
+}
+
+.main-container p {
+  margin-top: -20px;
+  color:gray;
+}
+
+.user-info {
+  font-size: .3em;
+}
+
+.user-info img {
+  width: 40%;
+  margin-top: 50px
+
+}
+
+.user-image {
+  background-color: #2B2B2B;
+  margin-top: 150px;
+  border-radius: 0.8rem;
+  text-align: center;
+  height: 300px;
+}
+
+.user-image h2 {
+  font-size: 2rem;
+}
+
+.user-image p {
+  font-size: 1rem;
+  
+}
+
+
+.action-icon {
+  display: flex; /* Flexbox to lay out actions horizontally */
+  justify-content: center; /* Center the actions within the card */
+  font-size: 2rem;
+}
+
+.action-icon i {
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 2px  solid white;
+}
+
+.aciton-icon i:hover {
+  cursor: pointer;
+  background-color: #5653CC;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+}
+
+.scooter-list {
+  font-size: 2rem; /* Adjust the font size as desired */
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.data-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: visible;
+}
+
+.time-lists {
+  flex: 1;
+}
+
+.chart-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 700px; /* Adjust height to contain the pie chart within a reasonable area */
+  overflow: visible;
+}
+
+.pie-chart-container {
+  width: 100%;
+  height: 100%; /* Full height of its container to fill the space */
+}
+
+
+.score-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.score-and-chart-container {
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+}
+
+
+
+.status-item1, .status-item2, .status-item3 {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 0.8rem;
+  height: 80px; /* Fixed height */
+  width: 400px; /* Fixed width */
+  font-size: 24px;
+  margin-right: 250px;
+  margin-top: -20px;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Center content horizontally */
+  gap: 10px; /* Space between the icon and the text */
+}
+
+/* Background colors */
+.status-item1 {
+  background-color: #9BED8E;
+}
+
+.status-item2 {
+  background-color: #ff7b7b;
+}
+
+.status-item3 {
+  background-color: #f8f4f4;
+}
+
+/* Icon styles */
+.status-item1 i, .status-item2 i, .status-item3 i {
+  width: 50px;
+  height: 50px;
+}
+
+.status-item1 i {
+  color: #000000;
+}
+
+.status-item2 i {
+  color: #000000;
+}
+
+.status-item3 i {
+  color: black;
+}
+
+/* Text styles */
+.status-item1 h2, .status-item1 p,
+.status-item2 h2, .status-item2 p,
+.status-item3 h2, .status-item3 p {
+  margin: 0; /* Remove default margins */
+}
+
+.online {
+  border: none;
+  background-color: #9BED8E;
+}
+
+.maintenance{
+  border: none;
+  background-color: #ff7b7b ;
+}
+
+.offline{
+  border: none;
+  background-color: #f8f4f4 ;
+}
+
+.online:hover, .maintenance:hover, .offline:hover {
+  cursor: pointer;
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Stack the h2 and p elements vertically */
+  align-items: center; /* Center-align the flex items */
+  text-align: center; /* Center-align the text */
+  font-size: 1.3rem;
+}
+
+
+.data{
+  font-size: 2rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.list-title h1 {
+  font-size: 2 rem;
+}
+
+
+table {
+  font-size:1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+
+
+
+/* Add borders to each cell */
+th, td {
+  border: 1px solid black;
+  text-align: center; /* Center align text in each cell */
+  padding: 8px; /* Adjust padding to your preference */
+}
+
+/* To ensure the headings stand out */
+thead {
+  background-color: #f2f2f2; /* Light grey background for table header */
+}
+
+.table-container {
+  max-height: 20vh; /* Example: 50% of the viewport height */
+  overflow-y: auto; /* Enables vertical scrolling */
+  border-collapse: collapse;
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+
+
+/*sidebar doesnt stick to page */
+.top-right-sidebar {
+  position: fixed;
+  right: 0; /* Positions the bar on the right side */
+  top: 10px; /* Space from the top */
+  width: 10%; /* Width of the sidebar */
+  background-color: #000000; /* Background color of the sidebar */
+  height: auto; /* Adjusts height based on content */
+  z-index: 1; /* Ensures sidebar is above other content */
+  display: flex;
+  flex-direction: row; /* Aligns children in a row from left to right */
+  align-items: center; /* Centers items vertically */
+  justify-content: space-around; /* Spaces out items evenly if there are multiple items */
+  padding: 5px; /* Padding inside the sidebar */
+  border-radius: 15px; /* Rounded corners */
+  margin-right: 10px;
+}
+
+.top-right-sidebar i {
+  margin-top:5px;
+  margin-left: -2px;
+  
+}
+
+
+.notification-btn, .settings-btn {
+  flex: 0 0 auto; /* Do not grow, do not shrink, basis is auto */
+  width: 50px; /* or whatever width you desire */
+  height: 50px; /* or whatever height you desire */
+  background-color: #ffffff; /* just for debugging */
+  border-radius: 100%;
+}
+
+@media print {
+  @page {
+    size: legal landscape; /* Set the page orientation to landscape */
+  }
+
+  body * {
+    visibility: hidden; /* Hide everything by default */
+  }
+  .main-container, .main-container * {
+    visibility: visible; /* Only the main container is visible */
+  }
+  .main-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .navigation-bar, .sidebar, .top-right-sidebar, .action-icon {
+    display: none; /* Explicitly remove UI elements not needed in print */
+  }
+}
+
+.popup {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  background-color: transparent;
+  width: 400px;
+  box-shadow: 0 10px 6px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  z-index: 10;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.popup-content {
+  color: #333;
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+  border-bottom: 1px solid #e1e1e1;
+  border-radius: 6px;
+  display: flex; /* Ensures flexbox layout */
+  flex-direction: column; /* Stacks children vertically */
+}
+
+.notifications-header {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e9e9e9;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 1.1rem;
+}
+
+.close {
+  font-size: 1.5rem;
+}
+
+/* Styling to center the close button at the bottom of the popup */
+#closePopupButton {
+  width: 100px; /* Fixed width for the button */
+  margin: 20px auto; /* Automatically margin for horizontal centering */
+  border-radius: 6px;
+  cursor: pointer; /* Pointer cursor on hover */
+  justify-content: center; /* Center text inside the button */
+}
+
+
+
+

@@ -1,0 +1,123 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #333;
+    padding: 20px 10px;
+    z-index: 1000;
+  }
+  
+  .sidebar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .logo img {
+    max-width: 50px;
+    margin-right: 10px;
+  }
+  
+  .sidebar button {
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .sidebar button i {
+    font-size: 1.5em;
+    min-width: 30px;
+  }
+  
+  .sidebar button span {
+    margin-left: 10px;
+  }
+
+  .App-header {
+    background-color: var(--primary-color);
+    color: #000000;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.6rem;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .App {
+    max-height: 100vh;
+    overflow: hidden;
+    margin-left: 50px;
+  }
+  
+  .user-card {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+  }
+  
+  .user-card img {
+    border-radius: 50%;
+    width: 70px; /* Adjusted as needed */
+    height: 70px; /* Adjusted as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-top: 40px;
+  }
+  
+  .user-info {
+    display: block;
+    text-align: center;
+    font-size: 0.75em;
+    color: white;
+  }
+  
+  .user-info h2, .user-info p {
+    margin: 5px 0;
+  }
+  
+  /* Adapt sizes for smaller devices */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .sidebar .logo, 
+    .sidebar .user-card {
+      display: none; /* Hide on small screens if necessary */
+    }
+  
+    .sidebar button {
+      font-size: 0.75em;
+    }
+  
+    .sidebar button i {
+      font-size: 1em;
+      margin: 0;
+    }
+  
+    .sidebar button span {
+      display: none; /* Hide text on smaller devices to save space */
+    }
+  }
+  

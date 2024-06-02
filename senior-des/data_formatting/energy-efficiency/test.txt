@@ -1,0 +1,11 @@
+PDensity
+SDensity
+e_battery
+hour_day
+day_week
+dist_motor
+dist_footway
+dist_residential
+dist_stop
+dist_poi
+TtB_class

@@ -1,0 +1,104 @@
+/* InventoryPage.css */
+
+/* Ensure consistency in font family and sizing */
+.inventory-page {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding-left: 250px; /* Assuming your sidebar is 250px wide */
+    padding-top: 20px;
+    font-size: 0.8rem; /* Adjust the base size according to your layout */
+    margin-left: 40px;
+  }
+  
+  /* Styling the container for the inventory list */
+  .inventory-list-container {
+    margin-top: 1rem;
+  }
+  
+  /* Styling individual items in the inventory */
+  .inventory-item {
+    background-color: var(--secondary-color); /* Secondary color for item background */
+    border: 1px solid #e1e1e1; /* Subtle border for definition */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Styling for titles and subtitles in the inventory page */
+  .inventory-title {
+    font-size: 1.5rem; /* Title size */
+    font-weight: 600; /* Semi-bold */
+    color: var(--text-color); /* Text color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .inventory-subtitle {
+    font-size: 1.2rem; /* Subtitle size */
+    color: var(--text-color); /* Subtitle color, can be lighter than main text */
+    margin-bottom: 1rem;
+  }
+  
+  /* Pie chart container if you're including a pie chart */
+  .pie-chart-container {
+    margin-bottom: 2rem;
+  }
+  
+  /* Table styles */
+  .inventory-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 2rem; /* Space above the table */
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    text-align: left; /* Align text to the left */
+    padding: 12px; /* Cell padding */
+  }
+  
+  .inventory-table th {
+    background-color: var(--primary-color); /* Themed background for header */
+    color: var(--text-color); /* Text color for header */
+  }
+  
+  .inventory-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+  }
+  
+  /* Styling buttons if there are any in your inventory */
+  .button {
+    background-color: #4e3ef5; /* Primary button color */
+    color: var(--primary-color); /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0.5rem 0;
+  }
+  
+  .button:hover {
+    background-color: #4c0cac; /* Button hover state */
+  }
+  
+  /* Adjustments for responsiveness and alignment */
+  @media (max-width: 768px) {
+    .inventory-page {
+      padding-left: 0; /* Remove padding for smaller screens */
+    }
+  
+    .inventory-title,
+    .inventory-subtitle {
+      text-align: center; /* Center-align text on small screens */
+    }
+  }
+
+  select {
+    font-size: 20px; /* Adjust the font size to your preference */
+  }
+  
+  /* You can continue to customize further based on the specific components and layout of your inventory page */
+  

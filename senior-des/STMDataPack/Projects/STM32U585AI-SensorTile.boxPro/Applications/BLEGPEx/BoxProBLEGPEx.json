@@ -1,0 +1,212 @@
+{
+  "bluestsdk_v2": [
+    {
+      "ble_dev_id": "0x11",
+      "ble_fw_id": "0xFF",
+      "brd_name": "SensorTile.Box-ProB",
+      "fw_name": "BLEGPEx",
+      "fw_version": "1.6.0",
+	    "fota" : {
+          "partial_fota": 0,
+          "type": "fast",
+          "max_chunk_length": 244,
+          "max_divisor_constraint": 0
+          },
+	  "option_bytes": [
+	  {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+	  ],
+	  "characteristics": [
+	  {
+            "name": "GeneralPurpose 0",
+            "uuid": "00000000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 2,
+                "name": "Field1 16bit",
+                "type": "UInt16",
+                "offset": 0.0,
+                "scalefactor": 1.0,
+                "min" : 100,
+                "max" : 200,
+                "unit": "m/s"
+              }
+            ]
+          },
+          {
+            "name": "GeneralPurpose 1",
+            "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 4,
+                "name": "Field1 32bit",
+                "type": "Int16",
+                "offset": -100.0,
+                "scalefactor": 0.02,
+                "min" : -100,
+                "max" : 300,
+                "unit": "kg"
+              }
+            ]
+          },
+          {
+            "name": "GeneralPurpose 2",
+            "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 1,
+                "name": "Field1 8bit",
+                "type": "Int8",
+                "offset": 16.0,
+                "scalefactor": 10.0,
+                "min":200,
+                "unit": "km"
+              },
+              {
+                "length": 4,
+                "name": "Field2 32bit",
+                "type": "UInt32",
+                "offset": 100.0,
+                "scalefactor": 100.0,
+                "max": 10000
+              }
+            ]
+          }
+	  ],
+	  "cloud_apps": [],
+	  "fw_desc": ""
+    },
+    {
+      "ble_dev_id": "0x0D",
+      "ble_fw_id": "0xFF",
+      "brd_name": "SensorTile.Box-Pro",
+      "fw_name": "BLEGPEx",
+      "fw_version": "1.5.0",
+    "fota" : {
+          "partial_fota": 0,
+          "type": "fast",
+          "max_chunk_length": 244,
+          "max_divisor_constraint": 0
+          },
+    "option_bytes": [
+    {
+          "format": "enum_string",
+          "name": "Running on: ",
+          "string_values": [
+            {
+              "display_name": "Bank 1",
+              "value": 1
+            },
+            {
+              "display_name": "Bank 2",
+              "value": 2
+            }
+          ],
+          "type": "string"
+        }
+    ],
+    "characteristics": [
+    {
+            "name": "GeneralPurpose 0",
+            "uuid": "00000000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 2,
+                "name": "Field1 16bit",
+                "type": "UInt16",
+                "offset": 0.0,
+                "scalefactor": 1.0,
+                "min" : 100,
+                "max" : 200,
+                "unit": "m/s"
+              }
+            ]
+          },
+          {
+            "name": "GeneralPurpose 1",
+            "uuid": "00010000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 4,
+                "name": "Field1 32bit",
+                "type": "Int16",
+                "offset": -100.0,
+                "scalefactor": 0.02,
+                "min" : -100,
+                "max" : 300,
+                "unit": "kg"
+              }
+            ]
+          },
+          {
+            "name": "GeneralPurpose 2",
+            "uuid": "00020000-0003-11e1-ac36-0002a5d5c51b",
+            "uuid_type": 3,
+            "format_notify": [
+              {
+                "length": 2,
+                "name": "timestamp"
+              },
+              {
+                "length": 1,
+                "name": "Field1 8bit",
+                "type": "Int8",
+                "offset": 16.0,
+                "scalefactor": 10.0,
+                "min":200,
+                "unit": "km"
+              },
+              {
+                "length": 4,
+                "name": "Field2 32bit",
+                "type": "UInt32",
+                "offset": 100.0,
+                "scalefactor": 100.0,
+                "max": 10000
+              }
+            ]
+          }
+    ],
+    "cloud_apps": [],
+    "fw_desc": ""
+    }
+  ]
+}
