@@ -14,11 +14,15 @@ As cities become increasingly congested, ride sharing has become an appealing al
 
 ## Usage
 
-First clone this repository, then follow the steps listed under _Sensortile.box Pro Programming_ [here](https://github.com/SIOTLAB/E-Scooter-Black-Box/tree/main/senior-des/STMDataPack)
+First clone this repository, then navigate to the desired folder as per the guide listed below.
 
 ```shell
 git clone git@github.com:SIOTLAB/E-Scooter-Black-Box.git
 ```
+
+## SensorTileBox.Pro Programming
+
+The 'STMDataPack' folder contains all necessary instructions needed to flash custom firmware code to the SensorTileBox.Pro.
 
 ## Data Processing / Machine Learning
 
