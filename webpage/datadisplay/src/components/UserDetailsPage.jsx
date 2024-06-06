@@ -3,7 +3,7 @@ import Sidebar from './Sidebar'; // Ensure this is the correct path
 import './UserDetailsPage.css'; // Make sure you have the corresponding CSS file
 import React, { useState, useEffect} from 'react';
 import { BrowserRouter, useNavigate } from 'react-router-dom';
-import FetchRides from './FetchRides';
+import FetchRides from '../utilities/FetchRides';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 import { Pie, Bar, Line} from 'react-chartjs-2';
 

@@ -1,15 +1,37 @@
 /* Sidebar.css */
+  
+.App {
+  max-height: 100vh;
+  overflow-y: auto;  
+  margin-left: 50px;
+}
+
+.App-header {
+  background-color: var(--primary-color);
+  color: #000000;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 50px;
+}
 
 .sidebar {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #333;
-    padding: 20px 10px;
-    z-index: 1000;
-  }
+  left: 250px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s; /* Smooth transition */
+  padding-top: 20px;
+  color: white;
+  border-radius: 0px 15px 15px 0px;
+  padding: 0.4rem 0.8rem;
+  transition: all 0.5s ease;
+}
   
   .sidebar .logo {
     display: flex;
@@ -45,26 +67,6 @@
     margin-left: 10px;
   }
 
-  .App-header {
-    background-color: var(--primary-color);
-    color: #000000;
-    padding: 1rem;
-    text-align: left;
-    font-size: 1.6rem;
-  }
-  
-  .App-header h1 {
-    margin: 0;
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 10px;
-  }
-  
-  .App {
-    max-height: 100vh;
-    overflow: hidden;
-    margin-left: 50px;
-  }
   
   .user-card {
     position: absolute;

@@ -1,0 +1,117 @@
+.App-header {
+    background-color: var(--primary-color);
+    color: #000000;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.6rem;
+    margin-top: 50px;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .App {
+    max-height: 100vh;
+    overflow-y: auto;  
+    margin-left: 50px;
+  }
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #333;
+    color: #fff; /* Text color */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /* Container for logo and form, centers everything below 'User Login' */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .escooter-logo {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image if needed */
+    width: 80%;
+    margin-bottom: 20px; /* Space between logo and form */
+  }
+  
+  .escooter-logo img {
+    max-width: 20%; /* Limiting image width to 25% of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; 
+    display: block; /* Image as a block element for margin auto to work */
+    margin-left: auto; /* Margin auto for centering */
+    margin-right: auto; /* Margin auto for centering */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align form items to the center */
+    width: 100%;
+    max-width: 300px; /* Maximum width of the form */
+  }
+  
+  .email-input,
+  .password-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  label {
+    margin-bottom: 10px; /* Space between label and input field */
+    font-size: 2.5rem;
+  }
+  
+  input[type=email],
+  input[type=password] {
+    width: calc(100% - 20px); /* Adjust width considering padding */
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto; /* Center the inputs */
+  }
+  
+  .login-footer {
+    font-size: 0.5em;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4e3ef5; /* Adjust the color as needed */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Space above the button */
+    align-self: center; /* Align button to the center */
+  }
+  
+  .login-button:hover {
+    background-color: #4c0cac; /* Slightly darker shade on hover */
+  }
+  
+  
+  .error-message {
+    color: #f00;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 0.75em;
+  }

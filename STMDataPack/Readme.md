@@ -49,3 +49,4 @@
 11. Once the file has been selected, **ensure the board is connected to your machine and powered on (2 LED's should be on)**, and _then_ click on the start programming button. This should run to completion without any errors.
 ###
 12. After CubeProgrammer has finished programming, turn the SensorTileBox off, and back on (keep it connected to the computer). You should hear a Piano sound, and in a few seconds your code from _main.c_ should start running.
+

@@ -1,8 +1,8 @@
 // Sidebar.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import escooterImage from './imgs/escooter.webp'; // Adjust the path as necessary
-import pfp from './imgs/default.jpg'; // Adjust the path as necessary
+import escooterImage from '../imgs/escooter.webp'; // Adjust the path as necessary
+import pfp from '../imgs/default.jpg'; // Adjust the path as necessary
 import './Sidebar.css'; // Create and use Sidebar specific CSS
 import { getAuth, signOut } from "firebase/auth";
 import { initializeApp } from "firebase/app";

@@ -1,10 +1,32 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './NavagationBar.css';
+import './NavigationBar.css';
+
+const handlePrint = () => {
+  // Attempt to force background graphics in print
+  const css = '@page { size: landscape; } body { -webkit-print-color-adjust: exact; }',
+      head = document.head || document.getElementsByTagName('head')[0],
+      style = document.createElement('style');
+
+  style.type = 'text/css';
+  style.media = 'print';
+
+  if (style.styleSheet){
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+
+  head.appendChild(style);
+
+  window.onafterprint = () => head.removeChild(style); // Clean up after print
+  window.print();
+};
 
 const NavigationBar = () => {
   const navigate = useNavigate();
   const [isPopupVisible, setIsPopupVisible] = useState(false);
+
 
   const togglePopup = () => {
     setIsPopupVisible(!isPopupVisible);
@@ -16,7 +38,7 @@ const NavigationBar = () => {
         <button id="notificationButton" className="notification-btn" onClick={togglePopup}>
           <i className="bx bxs-bell bx-md"></i>
         </button>
-        <button id="printButton" className="settings-btn" onClick={() => window.print()}>
+        <button id="printButton" className="settings-btn" onClick={handlePrint}>
           <i className='bx bxs-printer bx-md'></i>
         </button>
       </div>
