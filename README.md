@@ -14,20 +14,24 @@ As cities become increasingly congested, ride sharing has become an appealing al
 
 ## Usage
 
-First clone this repository, then follow the steps listed under _Sensortile.box Pro Programming_ [here](https://github.com/SIOTLAB/E-Scooter-Black-Box/tree/main/senior-des/STMDataPack)
+First clone this repository, then navigate to the desired folder as per the guide listed below.
 
 ```shell
 git clone git@github.com:SIOTLAB/E-Scooter-Black-Box.git
 ```
 
+## SensorTileBox.Pro Programming
+
+The 'STMDataPack' folder linked [here](https://github.com/SIOTLAB/E-Scooter-Black-Box/tree/main/STMDataPack) contains all necessary instructions needed to flash custom firmware code to the SensorTileBox.Pro.
+
 ## Data Processing / Machine Learning
 
-The 'data_formatting' folder contains all Python scripts related to data processing and analysis of sensory data.
+The 'data_formatting' folder linked [here](https://github.com/SIOTLAB/E-Scooter-Black-Box/tree/main/data_formatting) contains all Python scripts related to data processing and analysis of sensory data.
 
 ## Blackbox Gateway Service Provider Web Application
 
-The 'webpage/datadisplay' folder contains all React code for the service provider website for visualizing e-scooter fleet usage and riding metrics.
+The 'webpage/datadisplay' folder linked [here](https://github.com/SIOTLAB/E-Scooter-Black-Box/tree/main/webpage/datadisplay) contains all React code for the service provider website for visualizing e-scooter fleet usage and riding metrics.
 
 ## Blackbox Gateway iOS Application
 
-The 'BlackboxGatewayiOS' folder contains the source code for the iOS app responsible for connecting to the SensorTile.Box Pro for data offloading.
+The 'BlackboxGatewayiOS' folder linked [here](https://github.com/SIOTLAB/E-Scooter-Black-Box/tree/main/BlackboxGatewayiOS) contains the source code for the iOS app responsible for connecting to the SensorTile.Box Pro for data offloading.
